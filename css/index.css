@@ -1,0 +1,1407 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+
+    /*怪异盒子*/
+    box-sizing: border-box;/*3wc国际通用标准*/
+    -webkit-box-sizing: border-box;/*苹果 谷歌*/
+    -moz-box-sizing: border-box;/*火狐*/
+}
+
+/*公用样式 开始*/
+.aqjl{/*安全距离*/
+    width: 1220px;/*宽*/
+    height: 100%;/*高*/
+    padding: 0px;/*内边距零*/
+    margin: 0px auto;/*外边距零*/
+   /* background: pink;*/
+}
+
+.red{/*请登录单独颜色*/
+    color: #ee040f;/*字体颜色*/
+}
+
+body {
+    position: relative;
+}
+
+/*公用样式 结束*/
+
+
+/*头部样式 开始*/
+.toubu{/*头部背景条*/
+    width: 100%;/*宽*/
+    height: 26px;/*高*/
+    background-color:#f5f5f5;/*背景色*/
+    box-shadow: 0px 1px 2px #abaaaa;/*投影*/
+}
+
+.zuobian{/*头部左边*/
+    float: left;/*往左*/
+}
+
+.welcome{/*您好，欢迎来到众慧商城&请登录&免费注册&手机逛商城！*/
+    color: #444243;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+}
+
+.denglu{/*请登录  免费注册 手机逛商城*/
+    margin-left: 20px;/*左边距*/
+    text-decoration: none;/*取消下划线*/
+}
+
+.youbian{/*头部右边*/
+    float: right;/*往右*/
+}
+
+.wodzhanghu{/*我的账户*/
+    margin: 0 22px 0 25px;/*字间距*/
+}
+
+.lianxikehu{/*联系客户*/
+    margin: 0 27px 0 25px;/*字间距*/
+}
+
+.hezuo{/*商家合作*/
+    margin-right: 3px;/*右边距*/
+}
+/*头部样式 结束*/
+
+
+
+
+/*导航栏样式 开始*/
+.daohangl{/*导航栏高度*/
+    height: 186px;/*高*/
+}
+
+
+.navdiv{/*导航栏高度*/
+    height: 60px;/*高*/
+    text-align: center;/*水平居中*/
+    padding-top: 50px;/*上内边距*/
+}
+
+
+.logo{/*慧众商城logo*/
+    float:left;/*往左*/
+}
+
+.sousuoa{/*搜索组*/
+    height: 58px;/*高*/
+    float: left;/*往左*/
+    display: inline-block;/*行块级*/
+}
+
+.sousuokuang{/*搜索框*/
+    width: 460px;/*宽*/
+    height: 40px;/*高*/
+    float: left;/*往左*/
+    margin-left:77px;/*上&左边距*/
+    border: 2px solid #3e9311;/*描边*/
+}
+
+
+.sousuo{/*搜索字体*/
+    width: 86px;/*宽*/
+    height: 40px;/*高*/
+    color: white;/*字体颜色*/
+    float: left;/*往左*/
+    font-size: 18px;/*字体大小*/
+    line-height: 40px;/*字体居中*/
+    text-align: center;/*字体水平居中*/
+    background-color: #3e9311;/*背景颜色*/
+}
+
+.nbiaoqian{/*拉杆箱 | 妈咪包 | 煲 | 锅 | 背包*/
+    height: 12px;/*高*/
+    color: #797878;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin:45px 250px 0 0;/*右边距*/
+}
+
+.navzi{/*拉杆箱*/
+    padding-right: 12px;/*右边距*/
+    border-right: 1px solid #797878;/*右分割线*/
+}
+
+.mami{/*妈咪包*/
+    padding:0 12px 0 10px;/*左右边距*/
+    border-right: 1px solid #797878;/*右分割线*/
+}
+
+.beibao{/*背包*/
+    padding-left: 10px;/*左边距*/
+}
+
+
+.huiyuangouwu{/*会员中心&购物车*/
+    float: right;/*往右*/
+    margin-top: 3px;/*上边距*/
+    display: inline-block;/*行块级*/
+}
+
+
+.huiyuan{/*会员中心转行块级*/
+    float: left;/*往左*/
+}
+
+.huiyuanzhongxin{/*会员中心icon*/
+    width: 40px;/*宽*/
+    height: 34px;/*高*/
+    color: white;/*icon颜色*/
+    float: left;/*往右*/
+    line-height: 34px;
+    text-align: center;
+    margin-left:109px;/*左边距*/
+    background-color: #3e9311;/*背景颜色*/
+}
+
+
+.huiyuanzhongxinkuan{/*会员中心框*/
+    width: 94px;/*宽*/
+    height: 34px;/*高*/
+    float: left;/*往左*/
+    color: #4a4b4c;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    line-height: 34px;/*居中*/
+    text-align: center;/*水平居中*/
+    text-decoration: none;/*取消下划线*/
+    border: 1px solid #3e9311;/*描边*/
+}
+
+
+
+.gouwu{/*购物车转行块级*/
+    float: right;/*往右*/
+    margin-left: 32px;/*左边距*/
+    display: inline-block;/*行块级*/
+}
+
+.wodgouwuc{/*我的购物车icon*/
+    width: 40px;/*宽*/
+    height: 34px;/*高*/
+    color: white;/*icon颜色*/
+    float: left;/*往左*/
+    line-height: 34px;/*居中*/
+    text-align: center;/*水平居中*/
+    background-color: #3e9311;/*背景颜色*/
+}
+
+.wodgouwuck{/*我的购物车框*/
+    width: 90px;/*宽*/
+    height: 34px;/*高*/
+    float: right;/*往右*/
+    color: #4a4b4c;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    line-height: 34px;/*居中*/
+    text-align: center;/*水平居中*/
+    text-decoration: none;/*取消下划线*/
+    border: 1px solid #3e9311;/*描边*/
+}
+
+
+
+.navfelei{/*全部商品&标题层*/
+    height: 45px;/*高*/
+    font-size: 0px;/*零间距*/
+    margin-top: 32px;/*上边距*/
+    display: inline-block;/*行块级*/
+}
+
+
+.fenleia{/*全部商品分类*/
+    float: left;/*往左*/
+    padding-top: 1px;/*上内边距*/
+}
+
+
+.fenlei{/*分类底层*/
+    width: 208px;/*宽*/
+    height: 45px;/*高*/
+    color: white;/*字体颜色*/
+    text-align: center;/*水平居中*/
+    font-size: 16px;/*字体大小*/
+    background-color: #387e13;/*背景色*/
+}
+
+.shangp{/*全部商品字体*/
+    line-height: 45px;/*居中*/
+    margin: 0 9px 0 18px;/*外边距*/
+}
+
+.biaoti{/*导航栏标题*/
+    padding-top: 18px;/*内上边距*/
+    margin-left: 54px;/*左边距*/
+    display: inline-block;/*行块级*/
+}
+
+.shouye{ /*首页 兑权益 花积分 云积分*/
+    color: #010101;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin-right: 50px;/*右边距*/
+    text-decoration: none;/*取消下划线*/
+}
+
+.dinggou{/*订购电话：4000555706*/
+    color: #ff6600;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin-left: 364px;
+}
+/*导航栏样式 结束*/
+
+
+
+/*banner层样式 开始*/
+.banner{/*banner图*/
+    height: 433px;/*高*/
+    background-size: cover;/*背景图大小*/
+    border-top: 3px solid  #3e9311;/*上绿色线条*/
+    background-repeat: no-repeat;/*背景不平铺*/
+    background-position: center top;/*背景定位*/
+    background-image: url(../img/banner.jpg);/*banner*/
+}
+
+
+.bfenleigd{/*banner分类高度*/
+    width: 208px;/*宽*/
+    height: 430px;/*高*/
+    display: inline-block;/*行块级*/
+    background-color: #3e9311;/*背景色*/
+}
+
+
+.bannerfenlei{/*banner分类*/
+    color: white;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    list-style: none;/*取消无序列表*/
+}
+
+.bannerfenlei i{/*banner分类层icon*/
+    font-size: 19px;/*图标大小*/
+    margin-left: 7px;/*左边距*/
+}
+
+.diceng{/*底层*/
+    width: 208px;/*宽*/
+    height: 40px;/*高*/
+    line-height: 40px;/*居中*/
+    background-color: #3e9311;/*背景色*/
+}
+
+.bannerfenlei>li:hover{/*伪类 鼠标经过*/
+    background: #2b660b;/*经过背景色*/
+}
+
+
+.kuaibao{/*众慧快报底层*/
+    width: 240px;/*宽*/
+    height: 193px;/*高*/
+    float: right;/*往右*/
+    background-color: #fff3fb;/*背景色*/
+    display: inline-block;/*行块级*/
+}
+
+.huizgd{/*众慧快报&更多底层*/
+    height: 34px;/*高*/
+    background-color: white;/*背景色*/
+}
+
+.laba{/*喇叭icon*/
+    color: #e56a14;/*颜色*/
+    font-size: 20px;/*icon大小*/
+    margin-left: 6px;/*左边距*/
+}
+
+.huiz{/*众慧字体*/
+    float: left;/*往左*/
+    color: #444243;/*字体颜色*/
+    line-height: 34px;/*居中*/
+}
+
+.gengduo{/*更多字体*/
+    float: right;/*往右*/
+    color: #444243;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    line-height: 43px;/*居中*/
+    margin-right: 10px;/*右边距*/
+    text-decoration: none;/*取消下划线*/
+}
+
+.gonggao{/*公告*/
+    color: #666666;/*字体颜色*/
+    margin: 10px 0 0 38px;/*外边距*/
+    display: inline-block;/*行块级*/
+}
+
+.gonggao1{/*【公告】吹风机限时热卖...【公告】全新4k乐视影院发布*/
+    font-size: 12px;/*字体大小*/
+    margin-bottom: 8px;/*字体行间距*/
+}
+
+.gonggao1:hover{/*伪元素 鼠标经过*/
+    color: #ff6600;/*经过颜色*/
+}
+
+
+.tu1{/*banner右图1*/
+    width: 240px;/*宽*/
+    height: 120px;/*高*/
+    margin-top: 150px;/*上边距*/
+    display: inline-block;/*行块级*/
+    background-image: url(../img/bannerchuifengji.png);/*图一*/
+}
+
+.tu2{/*banner右图2*/
+    width: 240px;/*宽*/
+    height: 117px;/*高*/
+    top: 528px;/*上*/
+    position: absolute;/*绝对定位*/
+    background-image: url(../img/bannerbeiqueling.png);/*图2*/
+}
+
+.zuojiantou{/*左边箭头*/
+    position: absolute;/*绝对路径*/
+    top: 423px;/*上*/
+    left: 66px;/*左*/
+}
+
+.youjiantou{/*右边箭头*/
+    position: absolute;/*绝对路径*/
+    top: 423px;/*上*/
+    right: 66px;/*右*/
+}
+/*banner层样式 结束*/
+
+
+
+
+/*整点秒杀层样式 开始*/
+
+.floor1{/*秒杀层高度*/
+    height: 462px;/*高*/
+}
+
+.miaoshaziti{/*众慧精选*/
+    height: 76px;/*高*/
+    color: #0e0f0f;/*字体颜色*/
+    font-size: 24px;/*字体大小*/
+    line-height: 76px;/*居中*/
+}
+
+.zhui{/*众慧精选*/
+    float: left;/*往左*/
+}
+
+.yi{/*1*/
+    width: 24px;/*宽*/
+    height: 24px;/*高*/
+    float: right;/*往右*/
+    color: white;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    line-height: 24px;/*居中*/
+    border-radius: 8px;/*圆角*/
+    margin: 46px 9px 0 0;/*外边距*/
+    text-align: center;/*水平居中*/
+    background-color: #e5e5e5;/*背景色*/
+}
+.yi:hover{/*伪类 鼠标经过*/
+    background-color: #3e9311;/*经过颜色*/
+}
+
+.floor_1{/*floor图1*/
+    width: 288px;/*宽*/
+    height: 386px;/*高*/
+    float: left;/*往左*/
+    display: inline-block;/*行块级*/
+    border: 1px solid #c9c9c9;/*描边*/
+}
+
+.floor_1:hover{/*伪类 鼠标经过*/
+    border: 1px solid #3e9311;/*边框颜色*/
+}
+
+.f1jianju{/*图一~图4间距*/
+    margin-right: 22px;/*右间距*/
+}
+
+.nici{/*nici-logo*/
+    float: left;/*往左*/
+    margin: 3px 0 0 8px;/*外边距*/
+}
+
+.tejiaimg{/*特价img*/
+    float: right;/*往右*/
+}
+
+.taocidao{/*陶瓷刀*/
+    margin-left: 18px;/*左边距*/
+}
+
+.fbiaoti1{/*德国NICI礼祺Devil夜色小恶魔系列陶瓷刀三件套*/
+    color: #444443;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    margin: 30px 0 0 18px;/*外边距*/
+}
+
+.jiage{/*￥95.00+95M值*/
+    color: #d00204;/*字体颜色*/
+    font-size: 0px;/*零间距*/
+    margin:12px 0 0 18px;/*外边距*/
+}
+
+.fjiage1{/*￥&+&M值*/
+    font-size: 18px;/*字体大小*/
+}
+
+.fshuzi1{/*95.00&95*/
+    font-size: 30px;/*字体大小*/
+}
+
+.shoutibao{/*手提包img*/
+    margin-top: 20px;/*上边距*/
+}
+
+
+.tixudao{/*剃须刀img*/
+    margin: 20px 0px 0px 86px;/*外边距*/
+}
+
+.chazuo{/*插座img*/
+    margin-bottom: 10px;/*下边距*/
+}
+
+/*整点秒杀层样式 结束*/
+
+
+
+/*众慧精选层样式 开始*/
+.f2tuyi{/*floor2图一*/
+    margin: 16px 14px 0 9px;/*外边距*/
+}
+
+.f2wenzi1{/*floor文字1*/
+    width: 245px;/*字体宽度*/
+    color: #444443;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    margin:24px 0 0 18px;/*字体左边距*/
+}
+
+.f2qian{/*￥799*/
+    float: left;/*往左*/
+    margin: 8px 0 0 19px;
+}
+
+.f2fuhao{/*￥符号*/
+    color: #d00204;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+}
+
+.f2shuzi1{/*799数字*/
+    color: #d00204;/*字体颜色*/
+    font-size: 30px;/*字体大小*/
+}
+
+
+.f2anniu{/*floor2按钮底层*/
+    width: 93px;/*宽*/
+    height: 31px;/*高*/
+    float: right;/*往右*/
+    margin: 7px 14px;/*上右边距*/
+    border: none;/*取消边框*/
+    border-radius: 4px;/*圆角*/
+    background-color: #d00204;/*底层色*/
+}
+
+.f2goumai{/*立即购买字体*/
+    color: white;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    text-decoration: none;/*取消下划线*/
+}
+
+
+
+.f2tuer{/*floor2图二*/
+    margin: 54px 6px 0 9px;/*外边距*/
+}
+
+.f2wenzi2{/*丸美眼霜 紧致眼袋眼凝胶25g*/
+    width: 245px;/*字体宽度*/
+    color: #444443;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    margin:38px 0 0 18px;/*字体左边距*/
+}
+
+.f2qian2{/*￥799*/
+    float: left;/*往左*/
+    margin: 22px 0 0 19px;/*外边距*/
+}
+
+
+.f2anniu2{/*floor2按钮底层2 （图二按钮）*/
+    width: 93px;/*宽*/
+    height: 31px;/*高*/
+    float: right;/*往右*/
+    margin: 28px 14px;/*上右边距*/
+    border: none;/*取消边框*/
+    border-radius: 4px;/*圆角*/
+    background-color: #d00204;/*底层色*/
+}
+
+
+.f2tusan{/*floor2图三*/
+    width: 278px;/*宽*/
+    height: 288px;/*高*/
+    margin: 3px 4px 0 4px;/*外边距*/
+}
+
+.f2wenzi3{/*floor文字3*/
+    width: 245px;/*字体宽度*/
+    color: #444443;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    margin:4px 0 0 18px;/*字体左边距*/
+}
+
+.f2qian3{/*￥288*/
+    float: left;/*往左*/
+    margin: 8px 0 0 19px;
+}
+
+.f2tusi{/*floor2图四*/
+    margin: 9px 7px 0 6px;
+}
+
+/*众慧精选层样式 结束*/
+
+
+
+/*超级大牌样式 开始*/
+.floor3{/*底层高度*/
+    height: 436px;/*高*/
+}
+
+.f3chaojidapai{/*超级大牌底层*/
+    height: 76px;/*高*/
+}
+
+.dapai{/*超级大牌字体*/
+    color: #0e0f0f;/*字体颜色*/
+    font-size: 24px;/*字体大小*/
+    line-height: 76px;/*居中*/
+}
+
+.f3mote{/*<!--GUESS模特-->*/
+    height: 360px;/*高*/
+    float: left;/*往左*/
+    display: inline-block;/*行快级*/
+}
+
+.f3youbian{/*floor3右上边*/
+    float: left;/*往右*/
+    font-size: 0px;/*零间距*/
+    display: inline-block;/*行快级*/
+}
+
+.tengxun{/*腾讯 外框*/
+    width: 253px;/*宽*/
+    height: 180px;/*高*/
+    float: left;/*往左*/
+    display: inline-block;/*行快级*/
+    border: 1px solid #eaeaea;/*描边*/
+}
+
+/*腾讯 logo*/
+.tengxlogo{ margin: 84px 60px;/*外边距*/  }
+
+/*ssk logo*/
+.ssk{   margin: 62px 72px;/*外边距*/  }
+
+/*dyson logo*/
+.dyson{ margin: 73px 75px;/*外边距*/  }
+
+/*NICI logo*/
+.logonici{  margin: 65px 74px;/*外边距*/  }
+
+/*Wenger logo*/
+.wenger{  margin: 79px 59px;/*外边距*/  }
+
+/*zojirushi logo*/
+.zojirushi{ margin: 79px 56px;/*外边距*/  }
+
+/*miji logo*/
+.miji{ margin: 62px 99px;/*外边距*/  }
+
+/*托马斯 logo*/
+.tuomas{ margin: 64px 90px;/*外边距*/  }
+
+/*超级大牌样式 结束*/
+
+
+
+/*兑权益样式 开始*/
+.floor4{/*兑权益层 高度*/
+    height: 446px;/*高*/
+}
+
+
+.duiyidic{/*兑权益文字底层*/
+    height: 79px;/*高*/
+}
+
+.duiqywenzi{/*兑权益文字*/
+    color: #0e0f0f;/*字体颜色*/
+    font-size: 24px;/*字体大小*/
+    line-height: 79px;/*居中*/
+}
+
+
+.floor4-1{/*floor4img 间距*/
+    font-size: 0px;/*零间距*/
+    background-color: #f9f9f9;/*底色*/
+}
+
+
+.xinjiapo{/*新加坡妈妈烤包 底框*/
+    width: 296px;/*宽*/
+    height: 367px;/*高*/
+    float: left;/*往左*/
+    display: inline-block;/*行块级*/
+    border: 1px solid #e5e5e5;/*描边*/
+}
+
+.f4jianju{ /*新加坡 搜狐 优酷间距*/
+    margin-right: 10px;/*右间距*/
+}
+
+.mama{/*新加坡妈妈烤包 img*/
+    margin: 42px 0 0 52px;/*外边距*/
+}
+
+
+.xiaomama{/*新加坡 img*/
+    width: 268px;/*宽*/
+    height: 96px;/*高*/
+    margin: 44px 0 0 14px;/*外边距*/
+    border-top: 1px solid #eaeaea;/*上描边*/
+}
+
+
+.xiaokaobao{/*小新加坡妈妈烤包 img*/
+    float: left;/*往左*/
+    margin-top: 18px;/*上边距*/
+}
+
+.xinjiapoziti{/*新加坡妈妈烤包 字体*/
+    float: left;/*往左*/
+    color: #464646;/*字体颜色*/
+    font-size: 16px;/*字体大小*/
+    margin: 36px 0 0 10px;/*外边距*/
+}
+
+
+.souhu{/*搜狐img*/
+    margin: 76px 0 0 77px;
+}
+
+.xiaosouhu{/*小搜狐img&字体宽高*/
+    width: 268px;/*宽*/
+    height: 96px;/*高*/
+    margin: 77px 0 0 14px;/*外边距*/
+    border-top: 1px solid #eaeaea;/*上描边*/
+}
+
+.xiaoshimg{/*小搜狐 img*/
+    float: left;/*往左*/
+    margin-top: 24px;
+}
+
+.youku{/*优酷 img*/
+    margin: 73px 0 0 62px;/*外边距*/
+}
+
+.xiaoyouku{/*小优酷img&字体宽高*/
+    width: 268px;/*宽*/
+    height: 96px;/*高*/
+    margin: 72px 0 0 14px;/*外边距*/
+    border-top: 1px solid #eaeaea;/*上描边*/
+}
+
+.aiqiyi{/*爱奇艺 img*/
+    margin: 56px 0 0 80px;/*外边距*/
+}
+
+.xiaoaiqiyi{/*小爱奇艺img&字体宽高*/
+    width: 268px;/*宽*/
+    height: 96px;/*高*/
+    margin: 64px 0 0 14px;/*外边距*/
+    border-top: 1px solid #eaeaea;/*上描边*/
+}
+
+/*兑权益样式 结束*/
+
+
+
+/*banner2样式 开始*/
+.banner2{/*特惠banner2*/
+    height: 170px;/*高*/
+    margin-top: 24px;/*上 外边距*/
+    background-image: url(../img/tehuibanner.png);/*banner图*/
+}
+/*banner2样式 结束*/
+
+
+
+
+/*1F生活家居样式 开始*/
+
+.floor5{/*F生活家居高度*/
+    height: 464px;/*高*/
+}
+
+.f1header{/*1F生活家居头部*/
+    height: 84px;/*高*/
+    border-bottom: 2px solid #0098ff;/*下描边*/
+}
+
+
+.floor5ziti{/*1F蓝色底层*/
+    width: 57px;/*高*/
+    height: 53px;/*宽*/
+    float: left;/*往左*/
+    margin: 26px 9px 0 0;/*外边距*/
+    background-color: #0098ff;/*底色*/
+}
+
+
+.f{/*1f字体*/
+    color: white;/*字体颜色*/
+    font-size: 43px;/*字体大小*/
+    line-height: 53px;/*字体居中*/
+    margin-left: 3px;/*左边距*/
+}
+
+.jiajuziti{/*生活家居 字体*/
+    color: #090909;/*字体颜色*/
+    font-size: 24px;/*字体大小*/
+    float: left;/*往左*/
+    margin-top: 48px;/*上边距*/
+}
+
+.f5biaoqian{/*电饭煲&吹风机&洗衣机&微波炉&抽烟机*/
+    font-size: 0px;/*零间距*/
+    float: right;/*往右*/
+    margin-top: 60px;/*上边距*/
+}
+
+.f5ziti{/*电饭煲&吹风机&洗衣机&微波炉&抽烟机 单个标签*/
+    color: #666666;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    text-decoration: none;/*取消下划线*/
+}
+
+.f5ziti:hover{/*伪元素 鼠标经过*/
+    color: #960505;/*经过颜色*/
+}
+
+
+.f5-a{/*电饭煲&吹风机&洗衣机&微波炉 右分割线*/
+    padding: 0 16px 0 20px;/*左右内边距*/
+    border-right: 1px solid #444243;/*分割线*/
+}
+
+.f5-b{/*抽烟机*/
+    padding-left: 20px;/*左边距*/
+}
+
+.f5gengduo{/*更多 文字*/
+    color: #960505;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin:0 6px 0 29px;/*左右边距*/
+    text-decoration: none;/*取消下划线*/
+}
+
+.f5jiantou{/*箭头icon*/
+    color: #960505;/*icon颜色*/
+    float: right;/*往右*/
+    margin-right: 5px;/*右边距*/
+}
+
+
+.f5xialeib{/*floor5左边列表*/
+    width: 206px;/*宽*/
+    height: 370px;/*高*/
+    float: left;/*往左*/
+    margin-top: 7px;/*上边距*/
+    display: inline-block;/*行块级*/
+}
+
+
+.fzuobian{/*左边*/
+    float: left;/*往左*/
+    margin: 9px 27px 0 19px;
+    display: inline-block;/*行块级*/
+}
+
+.zziti{/*厨卫大电 环境电器 个人护理*/
+    width: 58px;
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    padding:13px 0 10px 0;/*上下边距*/
+    border-bottom: 1px solid #eeeeee;/*下划线*/
+}
+
+.fyoubian{/*右边*/
+    float: left;/*往左*/
+    margin: 9px 0 32px 0;/*上边距*/
+    display: inline-block;/*行块级*/
+}
+
+.yq{/*YQ6188/16同款*/
+    color: #313131;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin: 0px 0 10px 34px;/*外边距*/
+}
+
+.f5ziying{/*自营正品货到付款*/
+    color: #969696;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin-left: 28px;/*左边距*/
+}
+
+.yqtixudao{/*YQ6188剃须刀*/
+    height: 150px;/*高度*/
+    margin: 10px 0px 0 60px;/*外边距*/
+}
+
+.liuerba{/*六二八扫货节底层*/
+    width: 360px;/*宽*/
+    height: 369px;/*高*/
+    float: left;/*往左*/
+    margin-top: 7px;/*上边距*/
+    display: inline-block;/*行块级*/
+    background-color: #24b6f0;/*背景色*/
+}
+
+.f5dfg{/*六二八扫货节电饭锅*/
+    margin-left: 31px;/*左边距*/
+}
+
+.liuerbawenzi{/*六二八扫货节文字*/
+    color: white;/*字体颜色*/
+    margin: 10px 0 14px 12px;/*外边距*/
+}
+
+.f5baoyou{/*全场满288包邮*/
+    color: white;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin: 0 0 25px 17px;/*左边距*/
+}
+
+.f5qiangou{/*快来抢购*/
+    color: white;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin-left: 17px;/*左边距*/
+}
+
+.jiajuyoushang{/*生活家居 右上*/
+    font-size: 0px;/*零间距*/
+    margin-top: 8px;/*上边距*/
+    display: inline-block;/*行块级*/
+  }
+
+
+.M3-L233B{ /*微波炉M3-L233B23L光波炉  底层*/
+    width: 191px;/*宽*/
+    height: 178px;/*高*/
+    margin: 0px 38px 7px 7px;/*外边距*/
+    display: inline-block;/*行块级*/
+}
+
+.m3img{/*微波炉M3-L233B23L img*/
+    margin: 26px 0 0 7px;/*外边距*/
+}
+
+.m3wenzi{ /*微波炉 M3-L233B 23L 光波炉 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin: 3px 0 0 13px;/*上 左边距*/
+}
+
+.m3qian{/*￥599.00*/
+    color: #f70909;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    margin-left: 17px;/*左边距*/
+}
+
+
+.W12dianyaguo{ /*W12PCH402E电压力锅  底层*/
+    width: 190px;/*宽*/
+    height: 178px;/*高*/
+    margin-right:38px;/*右边距*/
+    display: inline-block;/*行块级*/
+}
+
+
+.m3img2{/*W12PCH402E电压力锅 img*/
+    margin: 10px 0 0 32px;/*外边距*/
+}
+
+.yaguo{/*W12PCH402E电压力锅 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin-left: 13px;/*左边距*/
+}
+
+
+.xiyiji{ /*洗衣机  底层*/
+    width: 190px;/*宽*/
+    height: 178px;/*高*/
+    float: right;/*往右*/
+    display: inline-block;/*行块级*/
+}
+
+
+.jiajuyouxia{/*生活家居 右下*/
+    font-size: 0px;/*零间距*/
+    display: inline-block;/*行块级*/
+}
+
+
+.m3tixudao{ /*微波炉M3-L233B23L光波炉 img*/
+    margin: 2px 0 0 54px;/*上 左边距*/
+}
+
+.w12weipolu{/*W12PCH402E微波炉 img*/
+    margin-left: 24px;/*左边距*/
+}
+/*1F生活家居样式 结束*/
+
+
+
+
+/*2F亲子母婴样式 开始*/
+
+.f6-a{/*NICI 木玩世家 知识花园 右分割线*/
+    padding: 0 16px 0 20px;/*左右内边距*/
+    border-right: 1px solid #444243;/*分割线*/
+}
+
+.f6-b{/*好孩子*/
+    padding: 0 16px 0 20px;/*左右内边距*/
+}
+
+
+.floor6ziti{/*1F蓝色底层*/
+    width: 57px;/*高*/
+    height: 53px;/*宽*/
+    float: left;/*往左*/
+    margin: 26px 9px 0 0;/*外边距*/
+    background-color: #f85c81;/*底色*/
+}
+
+.f2header{/*2F生活家居头部*/
+    height: 84px;/*高*/
+    border-bottom: 2px solid #f85c81;/*下描边*/
+}
+
+.feihe{/*幼儿配方奶粉*/
+    color: #313131;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin: 0px 0 10px 44px;/*外边距*/
+}
+
+
+.f6ziying{/*飞鹤启赋奶粉*/
+    color: #969696;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin-left: 42px;/*左边距*/
+}
+
+
+.fanchang{/*夏至返场狂欢 底层*/
+    width: 360px;/*宽*/
+    height: 369px;/*高*/
+    float: left;/*往左*/
+    margin-top: 7px;/*上边距*/
+    display: inline-block;/*行块级*/
+    background-color: #f85c81;/*背景色*/
+}
+
+
+.rusea{/*rusea 产品*/
+    margin-left: 84px;/*左边距*/
+}
+
+
+
+.xiguanbei{/*高真空儿童不锈钢双耳吸管杯 img*/
+    margin: 3px 0 0 7px;/*外边距*/
+}
+
+
+.peiziwenzi{ /*高真空儿童不锈钢双耳吸管杯 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin: 22px 0 0 13px;/*上 左边距*/
+}
+
+
+.oulaiya{/*欧莱雅（LOREAL雪颜 img*/
+    margin-left:12px;/*外边距*/
+}
+
+
+.oulaiyaziti{/*欧莱雅（LOREAL雪颜 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin: 20px 0 0 12px;/*左边距*/
+}
+
+
+.zuoyi{ /*韩国VOV幻彩腮红球 img*/
+    margin: 2px 0 0 17px;/*上 左边距*/
+}
+
+
+.wanju{/*W12PCH402E电压力锅 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin: 13px 0 0 13px;/*左边距*/
+}
+
+.xiaoche{/*W12PCH402E电压力锅 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin: 11px 0 0 13px;/*左边距*/
+}
+
+/*2F亲子母婴样式 结束*/
+
+
+
+
+/*3F服饰箱包样式 开始*/
+.floor7ziti{/*3F蓝色底层*/
+    width: 57px;/*高*/
+    height: 53px;/*宽*/
+    float: left;/*往左*/
+    margin: 26px 9px 0 0;/*外边距*/
+    background-color: #ff9901;/*底色*/
+}
+
+.f2header{/*3F生活家居头部*/
+    height: 84px;/*高*/
+    border-bottom: 2px solid #ff9901;/*下描边*/
+}
+
+
+.liuerba3{/*六二八扫货节 底层*/
+    width: 360px;/*宽*/
+    height: 369px;/*高*/
+    float: left;/*往左*/
+    margin-top: 7px;/*上边距*/
+    display: inline-block;/*行块级*/
+    background-color: #ff9901;/*背景色*/
+}
+
+
+.f3bao{/*F3 包包*/
+    float: right;/*往右*/
+    margin-right: 70px;/*右边距*/
+}
+
+
+.f6baoyou{/*全场满288包邮*/
+    color: white;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin: 0 0 12px 17px;/*左边距*/
+}
+
+
+.shoub{/*卡姿兰口红自然印记唇膏保湿 img*/
+    margin: 7px 0 0 15px;/*外边距*/
+}
+
+
+.kazl{ /*卡姿兰口红自然印记唇膏保湿 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin-left:13px;/* 左边距*/
+}
+
+
+.oulaibao{/*欧莱雅（LOREAL雪颜 img*/
+    margin:7px 0 0 22px;/*外边距*/
+}
+
+
+.oulaibziti{/*欧莱雅（LOREAL雪颜 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin: 4px 0 0 12px;/*上 左边距*/
+}
+
+
+.hongbao{ /*红包 img*/
+    margin-left: 17px;/* 左边距*/
+}
+
+
+.jinyou{ /*十记金柚 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin: 10px 0 0 13px;/*上 左边距*/
+}
+/*3F服饰箱包样式 结束*/
+
+
+
+
+/*4F电子科技样式 开始*/
+
+.floor8ziti{/*4F红色底层*/
+    width: 57px;/*高*/
+    height: 53px;/*宽*/
+    float: left;/*往左*/
+    margin: 26px 9px 0 0;/*外边距*/
+    background-color: #f2280d;/*底色*/
+}
+
+.f8header{/*4F生活家居头部*/
+    height: 84px;/*高*/
+    border-bottom: 2px solid #f2280d;/*下描边*/
+}
+
+.plus{/*飞鹤启赋奶粉*/
+    color: #969696;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+}
+
+.iPad{/*F4 iPad*/
+    margin-left: 12px;/*左边距*/
+}
+
+.dashen{/*大神 手机 img*/
+    margin: 10px 0 0 36px;/*外边距*/
+}
+
+.dashenwenzi{ /*大神F2(8675-A)智尚白 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin:10px 0 0 13px;/*上 左边距*/
+}
+
+.danfan{/*佳能单反D70 img*/
+    margin:13px 0 0 32px;/*外边距*/
+}
+
+.sanxing{/*三星手机 img*/
+    margin-left:38px;/*左边距*/
+}
+
+
+.erji { /*录音机 img*/
+    margin-left: 60px;/* 左边距*/
+}
+
+.erjiziti{ /*BeatsPro录音师专业版 文字*/
+    color: #333333;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin: 7px 0 0 19px;/*上 左边距*/
+}
+
+.shuan{/*智能手环 img*/
+    margin: 10px 0 0 46px;/*外边距*/
+}
+
+.suoni{/*索尼 img*/
+    margin-left: 62px;/*左边距*/
+}
+/*4F电子科技样式 结束*/
+
+
+
+/*页脚售后服务样式 开始*/
+.fuwudic{/*底层*/
+    width: 1220px;/*宽*/
+    height: 122px;/*高*/
+    display: inline-block;/*行块级*/
+}
+
+
+.pinzhidic{/*品质保障 宽高*/
+    width: 250px;/*宽*/
+    height: 52px;/*高*/
+    margin: 42px 0 0 70px;/*外边距*/
+    display: inline-block;/*行块级*/
+    border-right: 1px solid #cccccc;
+}
+
+.you{/*优 img*/
+    float: left;/*往左*/
+    margin-right: 16px;/*右边距*/
+}
+
+
+.huhang{/*品质护航 购物无忧*/
+    color: #cacaca;/*字体颜色*/
+}
+
+
+.qitian{/*七天无理由退货 宽高*/
+    width: 266px;/*宽*/
+    height: 52px;/*高*/
+    margin: 30px 0 0 30px;/*外边距*/
+    display: inline-block;/*行块级*/
+    border-right: 1px solid #cccccc;
+}
+
+.bangzu{/*帮助中心 宽高*/
+    width: 184px;/*宽*/
+    height: 52px;/*高*/
+    margin-left:54px;/*外边距*/
+    display: inline-block;/*行块级*/
+}
+
+
+.fuwubiaoti{/*页脚售后标题*/
+    height: 200px;/*高*/
+}
+
+.biaoti1{/*购物指南 配送方式 支付方式 售后服务*/
+    height: 20px;/*高*/
+    font-size: 0px;/*零间距*/
+    padding: 14px 228px;/*字体内边距*/
+}
+
+.biaoa{/*购物指南 配送方式 支付方式 售后服务*/
+    color: #4e4d4d;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    text-decoration: none;/*取消下划线*/
+}
+
+/*购物指南*/
+.a-1{padding-right: 172px;}/*右边距*/
+
+/*配送方式*/
+.a-2{padding-right: 192px;}/*右边距*/
+
+/*支付方式*/
+.a-3{padding-right: 172px;}/*右边距*/
+
+.biaoti2{/*购物流程  上门自提 货到付款 售后政策*/
+    height: 20px;/*高*/
+    font-size: 0px;/*零间距*/
+    padding: 17px 228px;/*字体内边距*/
+}
+
+.biaob{/*购物流程  上门自提 货到付款 售后政策*/
+    color: #666;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    text-decoration: none;/*取消下划线*/
+}
+
+/*购物流程*/
+.b-1{padding-right: 182px;}/*右边距*/
+
+/*上门自提*/
+.b-2{padding-right: 199px;}/*右边距*/
+
+/*货到付款*/
+.b-3{padding-right: 180px;}/*右边距*/
+
+.biaoti3{/*会员介绍  211限时达 在线支付 价格保护*/
+    height: 20px;/*高*/
+    font-size: 0px;/*零间距*/
+    padding: 12px 228px;/*字体内边距*/
+}
+
+/*211限时达*/
+.c-2{padding-right: 190px;}/*右边距*/
+
+/*在线支付*/
+.c-3{padding-right: 180px;}/*右边距*/
+
+
+/*生活旅行/团购*/
+.d-1{padding-right: 150px;}/*右边距*/
+
+/*配送服务查询*/
+.d-2{padding-right: 180px;}/*右边距*/
+
+/*分期付款*/
+.d-3{padding-right: 180px;}/*右边距*/
+
+
+/*常见问题*/
+.e-1{padding-right: 180px;}/*右边距*/
+
+/*配送费收取标准*/
+.e-2{padding-right: 160px;}/*右边距*/
+
+/*邮局汇款*/
+.e-3{padding-right: 170px;}/*右边距*/
+
+.jiadian{/*大家电*/
+    float: left;/*往左*/
+    color: #666666;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin-top: 10px;/*上边距*/
+}
+
+.teshu{/*大家电*/
+    text-decoration: none;/*取消下划线*/
+}
+
+.dingdan{/*取消订单*/
+    color: #666666;/*字体颜色*/
+    float: right;/*往右*/
+    font-size: 12px;/*字体大小*/
+    margin-right: 8px;/*右边距*/
+    padding-top: 10px;/*上边距*/
+}
+
+.zz{/*公司转账*/
+    color: #666;/*字体颜色*/
+    float: left;/*往右*/
+    font-size: 12px;/*字体大小*/
+    margin:10px 0 0 442px;/*右边距*/
+}
+
+.tel{/*联系客服*/
+    font-size: 12px;/*字体大小*/
+    margin: 40px 0 0 226px;/*外边距*/
+}
+
+.tel>.ke{/*联系客服*/
+    color: #666666;/*字体颜色*/
+    text-decoration: none;/*取消下划线*/
+}
+/*页脚售后服务样式 结束*/
+
+
+
+
+/*页脚样式 开始*/
+.yejiao{/*页脚底层*/
+    width:100%;/*宽*/
+    height: 166px;/*高*/
+    background-color: #2b660b;/*背景色*/
+}
+
+.fterwenzi{/*有任何购物...技术支持：维恩贝特*/
+    color: white;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    padding-top: 20px;/*上内边距*/
+    text-align: center;/*水平居中*/
+}
+
+.kexin{/*可信网站 img*/
+    margin-top: 14px;/*上边距*/
+}
+/*页脚样式 结束*/
+
+
+
+
